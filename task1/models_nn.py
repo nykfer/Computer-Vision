@@ -47,14 +47,29 @@ class NeuralNetwork(MnistClassifierInterface):
         self.epochs = epochs
 
     def _to_tensor(self, x, dtype):
-        """Convert supported input types to a torch.Tensor with the given dtype."""
+        """Convert supported input types to a torch.Tensor with the given dtype.
+
+        For image data (float dtype), this:
+        - accepts shapes like (N, 784), (N, 28, 28), (N, 1, 28, 28)
+        - scales values to [0, 1] if they appear to be in [0, 255].
+        """
         if isinstance(x, Tensor):
-            return x.type(dtype)
-        if isinstance(x, np.ndarray):
-            return torch.from_numpy(x).type(dtype)
-        if isinstance(x, (list, tuple)):
-            return torch.tensor(x, dtype=dtype)
-        raise TypeError(f"Unsupported data type for NeuralNetwork: {type(x)}")
+            t = x
+        elif isinstance(x, np.ndarray):
+            t = torch.from_numpy(x)
+        elif isinstance(x, (list, tuple)):
+            t = torch.tensor(x)
+        else:
+            raise TypeError(f"Unsupported data type for NeuralNetwork: {type(x)}")
+
+        t = t.type(dtype)
+
+        # Normalize to [0, 1] if necessary
+        if dtype == torch.float32:
+            if t.max() > 1.0:
+                t = t / 255.0
+
+        return t
 
     def _train_model(self, loader: DataLoader):
         """Run the training loop over the provided DataLoader."""

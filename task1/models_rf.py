@@ -10,11 +10,18 @@ from .interface import MnistClassifierInterface, MNISTPredict
 
 class RandomForest(MnistClassifierInterface):
     def __init__(self):
-        """Random Forest classifier wrapper around sklearn.RandomForestClassifier."""
+        """Random Forest classifier wrapper around sklearn.RandomForestClassifier with default parameters."""
         self.model = RandomForestClassifier()
 
     def _prepare_features(self, X):
-        """Convert input features to a 2D NumPy array of shape (n_samples, n_features)."""
+        """Convert input features to a normalized 2D NumPy array.
+
+        Accepts tensors or arrays in common MNIST shapes:
+        - (N, 784)
+        - (N, 28, 28)
+        - (N, 1, 28, 28)
+        Values are scaled to [0, 1] if they appear to be in [0, 255].
+        """
         if isinstance(X, Tensor):
             X = X.detach().cpu().numpy()
         elif isinstance(X, pd.DataFrame):
@@ -26,7 +33,13 @@ class RandomForest(MnistClassifierInterface):
         else:
             raise TypeError(f"Unsupported feature type for RandomForest: {type(X)}")
 
+        # Flatten per sample
         X = X.reshape(X.shape[0], -1)
+
+        # Normalize to [0, 1] if necessary
+        X = X.astype("float32")
+        if X.max() > 1.0:
+            X /= 255.0
         return X
 
     def _prepare_target(self, y):

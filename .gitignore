@@ -12,3 +12,6 @@ uv.lock
 # Virtual environments
 .venv
 intership.pdf
+ner-model
+ner-model.zip
+animals.pth
