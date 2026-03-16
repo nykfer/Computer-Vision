@@ -1,0 +1,2484 @@
+[
+  {
+    "tokens": [
+      "It",
+      "is",
+      "hard",
+      "to",
+      "say",
+      "what",
+      "is",
+      "in",
+      "the",
+      "image",
+      "."
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "text": "It is hard to say what is in the image."
+  },
+  {
+    "tokens": [
+      "Can",
+      "you",
+      "see",
+      "the",
+      "chick",
+      "in",
+      "this",
+      "image",
+      "?"
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "text": "Can you see the chick in this image?"
+  },
+  {
+    "tokens": [
+      "Looks",
+      "like",
+      "a",
+      "cats",
+      "to",
+      "me",
+      "."
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O",
+      "O"
+    ],
+    "text": "Looks like a cats to me."
+  },
+  {
+    "tokens": [
+      "The",
+      "wildlife",
+      "photographer",
+      "captured",
+      "a",
+      "stunning",
+      "kittens",
+      "."
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O"
+    ],
+    "text": "The wildlife photographer captured a stunning kittens."
+  },
+  {
+    "tokens": [
+      "This",
+      "seems",
+      "to",
+      "be",
+      "a",
+      "horse",
+      "."
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O"
+    ],
+    "text": "This seems to be a horse."
+  },
+  {
+    "tokens": [
+      "The",
+      "butterflies",
+      "in",
+      "this",
+      "photo",
+      "looks",
+      "healthy",
+      "."
+    ],
+    "tags": [
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "text": "The butterflies in this photo looks healthy."
+  },
+  {
+    "tokens": [
+      "That",
+      "sure",
+      "looks",
+      "like",
+      "a",
+      "hens",
+      "."
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O"
+    ],
+    "text": "That sure looks like a hens."
+  },
+  {
+    "tokens": [
+      "Looks",
+      "like",
+      "a",
+      "feline",
+      "to",
+      "me",
+      "."
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O",
+      "O"
+    ],
+    "text": "Looks like a feline to me."
+  },
+  {
+    "tokens": [
+      "That",
+      "might",
+      "be",
+      "a",
+      "squirrels",
+      "in",
+      "the",
+      "background",
+      "."
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "text": "That might be a squirrels in the background."
+  },
+  {
+    "tokens": [
+      "This",
+      "photo",
+      "was",
+      "taken",
+      "in",
+      "the",
+      "forest",
+      "."
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "text": "This photo was taken in the forest."
+  },
+  {
+    "tokens": [
+      "A",
+      "elephant",
+      "can",
+      "be",
+      "observed",
+      "in",
+      "this",
+      "image",
+      "."
+    ],
+    "tags": [
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "text": "A elephant can be observed in this image."
+  },
+  {
+    "tokens": [
+      "The",
+      "animal",
+      "in",
+      "the",
+      "picture",
+      "appears",
+      "to",
+      "be",
+      "a",
+      "spider",
+      "."
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O"
+    ],
+    "text": "The animal in the picture appears to be a spider."
+  },
+  {
+    "tokens": [
+      "I",
+      "cannot",
+      "identify",
+      "the",
+      "animal",
+      "in",
+      "this",
+      "image",
+      "."
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "text": "I cannot identify the animal in this image."
+  },
+  {
+    "tokens": [
+      "Here",
+      "is",
+      "a",
+      "close",
+      "-",
+      "up",
+      "photo",
+      "of",
+      "a",
+      "pony",
+      "."
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O"
+    ],
+    "text": "Here is a close-up photo of a pony."
+  },
+  {
+    "tokens": [
+      "Can",
+      "you",
+      "see",
+      "the",
+      "cat",
+      "in",
+      "this",
+      "image",
+      "?"
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "text": "Can you see the cat in this image?"
+  },
+  {
+    "tokens": [
+      "A",
+      "puppy",
+      "can",
+      "be",
+      "observed",
+      "in",
+      "this",
+      "image",
+      "."
+    ],
+    "tags": [
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "text": "A puppy can be observed in this image."
+  },
+  {
+    "tokens": [
+      "The",
+      "image",
+      "contains",
+      "a",
+      "puppy",
+      "."
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O"
+    ],
+    "text": "The image contains a puppy."
+  },
+  {
+    "tokens": [
+      "Looks",
+      "like",
+      "a",
+      "horses",
+      "to",
+      "me",
+      "."
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O",
+      "O"
+    ],
+    "text": "Looks like a horses to me."
+  },
+  {
+    "tokens": [
+      "Check",
+      "out",
+      "this",
+      "amazing",
+      "photo",
+      "of",
+      "a",
+      "horse",
+      "!"
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O"
+    ],
+    "text": "Check out this amazing photo of a horse!"
+  },
+  {
+    "tokens": [
+      "The",
+      "image",
+      "does",
+      "not",
+      "contain",
+      "any",
+      "animals",
+      "."
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "text": "The image does not contain any animals."
+  },
+  {
+    "tokens": [
+      "The",
+      "animal",
+      "in",
+      "the",
+      "picture",
+      "appears",
+      "to",
+      "be",
+      "a",
+      "puppy",
+      "."
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O"
+    ],
+    "text": "The animal in the picture appears to be a puppy."
+  },
+  {
+    "tokens": [
+      "Look",
+      ",",
+      "a",
+      "horse",
+      "!"
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O"
+    ],
+    "text": "Look, a horse!"
+  },
+  {
+    "tokens": [
+      "That",
+      "might",
+      "be",
+      "a",
+      "calf",
+      "in",
+      "the",
+      "background",
+      "."
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "text": "That might be a calf in the background."
+  },
+  {
+    "tokens": [
+      "The",
+      "wildlife",
+      "photographer",
+      "captured",
+      "a",
+      "stunning",
+      "squirrels",
+      "."
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O"
+    ],
+    "text": "The wildlife photographer captured a stunning squirrels."
+  },
+  {
+    "tokens": [
+      "The",
+      "wildlife",
+      "photographer",
+      "captured",
+      "a",
+      "stunning",
+      "foal",
+      "."
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O"
+    ],
+    "text": "The wildlife photographer captured a stunning foal."
+  },
+  {
+    "tokens": [
+      "The",
+      "image",
+      "was",
+      "blurry",
+      ".",
+      "However",
+      ",",
+      "I",
+      "could",
+      "still",
+      "see",
+      "a",
+      "kitten",
+      "."
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O"
+    ],
+    "text": "The image was blurry. However, I could still see a kitten."
+  },
+  {
+    "tokens": [
+      "I",
+      "can",
+      "see",
+      "several",
+      "horse",
+      "in",
+      "the",
+      "picture",
+      "."
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "text": "I can see several horse in the picture."
+  },
+  {
+    "tokens": [
+      "While",
+      "walking",
+      "in",
+      "the",
+      "park",
+      "I",
+      "spotted",
+      "a",
+      "elephants",
+      "."
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O"
+    ],
+    "text": "While walking in the park I spotted a elephants."
+  },
+  {
+    "tokens": [
+      "This",
+      "seems",
+      "to",
+      "be",
+      "a",
+      "bull",
+      "."
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O"
+    ],
+    "text": "This seems to be a bull."
+  },
+  {
+    "tokens": [
+      "Check",
+      "out",
+      "this",
+      "amazing",
+      "photo",
+      "of",
+      "a",
+      "elephants",
+      "!"
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O"
+    ],
+    "text": "Check out this amazing photo of a elephants!"
+  },
+  {
+    "tokens": [
+      "The",
+      "animal",
+      "in",
+      "the",
+      "picture",
+      "appears",
+      "to",
+      "be",
+      "a",
+      "cat",
+      "."
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O"
+    ],
+    "text": "The animal in the picture appears to be a cat."
+  },
+  {
+    "tokens": [
+      "I",
+      "think",
+      "there",
+      "is",
+      "a",
+      "elephants",
+      "over",
+      "there",
+      "."
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O",
+      "O"
+    ],
+    "text": "I think there is a elephants over there."
+  },
+  {
+    "tokens": [
+      "This",
+      "picture",
+      "does",
+      "not",
+      "show",
+      "a",
+      "chicken",
+      "."
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O"
+    ],
+    "text": "This picture does not show a chicken."
+  },
+  {
+    "tokens": [
+      "Here",
+      "is",
+      "a",
+      "close",
+      "-",
+      "up",
+      "photo",
+      "of",
+      "a",
+      "butterflies",
+      "."
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O"
+    ],
+    "text": "Here is a close-up photo of a butterflies."
+  },
+  {
+    "tokens": [
+      "A",
+      "beautiful",
+      "mare",
+      "is",
+      "shown",
+      "in",
+      "the",
+      "picture",
+      "."
+    ],
+    "tags": [
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "text": "A beautiful mare is shown in the picture."
+  },
+  {
+    "tokens": [
+      "A",
+      "hen",
+      "was",
+      "photographed",
+      "in",
+      "its",
+      "natural",
+      "habitat",
+      "."
+    ],
+    "tags": [
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "text": "A hen was photographed in its natural habitat."
+  },
+  {
+    "tokens": [
+      "It",
+      "is",
+      "hard",
+      "to",
+      "say",
+      "what",
+      "is",
+      "in",
+      "the",
+      "image",
+      "."
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "text": "It is hard to say what is in the image."
+  },
+  {
+    "tokens": [
+      "I",
+      "looked",
+      "at",
+      "the",
+      "picture",
+      "carefully",
+      ".",
+      "I",
+      "noticed",
+      "a",
+      "spiders",
+      "."
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O"
+    ],
+    "text": "I looked at the picture carefully. I noticed a spiders."
+  },
+  {
+    "tokens": [
+      "That",
+      "is",
+      "a",
+      "lambs",
+      "."
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O"
+    ],
+    "text": "That is a lambs."
+  },
+  {
+    "tokens": [
+      "It",
+      "looks",
+      "like",
+      "a",
+      "sheep",
+      "to",
+      "me",
+      "."
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O",
+      "O"
+    ],
+    "text": "It looks like a sheep to me."
+  },
+  {
+    "tokens": [
+      "The",
+      "kitty",
+      "was",
+      "captured",
+      "on",
+      "camera",
+      "near",
+      "the",
+      "river",
+      "."
+    ],
+    "tags": [
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "text": "The kitty was captured on camera near the river."
+  },
+  {
+    "tokens": [
+      "The",
+      "image",
+      "was",
+      "blurry",
+      ".",
+      "However",
+      ",",
+      "I",
+      "could",
+      "still",
+      "see",
+      "a",
+      "horses",
+      "."
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O"
+    ],
+    "text": "The image was blurry. However, I could still see a horses."
+  },
+  {
+    "tokens": [
+      "It",
+      "looks",
+      "like",
+      "a",
+      "spider",
+      "to",
+      "me",
+      "."
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O",
+      "O"
+    ],
+    "text": "It looks like a spider to me."
+  },
+  {
+    "tokens": [
+      "I",
+      "looked",
+      "at",
+      "the",
+      "picture",
+      "carefully",
+      ".",
+      "I",
+      "noticed",
+      "a",
+      "cat",
+      "."
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O"
+    ],
+    "text": "I looked at the picture carefully. I noticed a cat."
+  },
+  {
+    "tokens": [
+      "It",
+      "is",
+      "hard",
+      "to",
+      "say",
+      "what",
+      "is",
+      "in",
+      "the",
+      "image",
+      "."
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "text": "It is hard to say what is in the image."
+  },
+  {
+    "tokens": [
+      "I",
+      "see",
+      "a",
+      "spiders",
+      "."
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O"
+    ],
+    "text": "I see a spiders."
+  },
+  {
+    "tokens": [
+      "I",
+      "think",
+      "there",
+      "is",
+      "a",
+      "horse",
+      "over",
+      "there",
+      "."
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O",
+      "O"
+    ],
+    "text": "I think there is a horse over there."
+  },
+  {
+    "tokens": [
+      "I",
+      "found",
+      "this",
+      "image",
+      "of",
+      "a",
+      "horses",
+      "online",
+      "."
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O"
+    ],
+    "text": "I found this image of a horses online."
+  },
+  {
+    "tokens": [
+      "This",
+      "is",
+      "just",
+      "a",
+      "landscape",
+      "photo",
+      "."
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "text": "This is just a landscape photo."
+  },
+  {
+    "tokens": [
+      "There",
+      "are",
+      "some",
+      "squirrels",
+      "in",
+      "the",
+      "image",
+      "."
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "text": "There are some squirrels in the image."
+  },
+  {
+    "tokens": [
+      "It",
+      "looks",
+      "like",
+      "a",
+      "butterflies",
+      "to",
+      "me",
+      "."
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O",
+      "O"
+    ],
+    "text": "It looks like a butterflies to me."
+  },
+  {
+    "tokens": [
+      "There",
+      "are",
+      "some",
+      "stallion",
+      "in",
+      "the",
+      "image",
+      "."
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "text": "There are some stallion in the image."
+  },
+  {
+    "tokens": [
+      "A",
+      "bull",
+      "was",
+      "photographed",
+      "in",
+      "its",
+      "natural",
+      "habitat",
+      "."
+    ],
+    "tags": [
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "text": "A bull was photographed in its natural habitat."
+  },
+  {
+    "tokens": [
+      "My",
+      "friend",
+      "sent",
+      "me",
+      "this",
+      "photo",
+      "of",
+      "a",
+      "calf",
+      "."
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O"
+    ],
+    "text": "My friend sent me this photo of a calf."
+  },
+  {
+    "tokens": [
+      "The",
+      "squirrels",
+      "in",
+      "this",
+      "photo",
+      "looks",
+      "healthy",
+      "."
+    ],
+    "tags": [
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "text": "The squirrels in this photo looks healthy."
+  },
+  {
+    "tokens": [
+      "Check",
+      "out",
+      "this",
+      "amazing",
+      "photo",
+      "of",
+      "a",
+      "lambs",
+      "!"
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O"
+    ],
+    "text": "Check out this amazing photo of a lambs!"
+  },
+  {
+    "tokens": [
+      "This",
+      "seems",
+      "to",
+      "be",
+      "a",
+      "pup",
+      "."
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O"
+    ],
+    "text": "This seems to be a pup."
+  },
+  {
+    "tokens": [
+      "I",
+      "took",
+      "this",
+      "picture",
+      "of",
+      "a",
+      "butterfly",
+      "yesterday",
+      "."
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O"
+    ],
+    "text": "I took this picture of a butterfly yesterday."
+  },
+  {
+    "tokens": [
+      "The",
+      "photo",
+      "shows",
+      "a",
+      "group",
+      "of",
+      "elephant",
+      "."
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O"
+    ],
+    "text": "The photo shows a group of elephant."
+  },
+  {
+    "tokens": [
+      "While",
+      "walking",
+      "in",
+      "the",
+      "park",
+      "I",
+      "spotted",
+      "a",
+      "spider",
+      "."
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O"
+    ],
+    "text": "While walking in the park I spotted a spider."
+  },
+  {
+    "tokens": [
+      "I",
+      "found",
+      "this",
+      "image",
+      "of",
+      "a",
+      "squirrel",
+      "online",
+      "."
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O"
+    ],
+    "text": "I found this image of a squirrel online."
+  },
+  {
+    "tokens": [
+      "It",
+      "is",
+      "a",
+      "elephants",
+      "."
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O"
+    ],
+    "text": "It is a elephants."
+  },
+  {
+    "tokens": [
+      "The",
+      "animal",
+      "in",
+      "the",
+      "picture",
+      "appears",
+      "to",
+      "be",
+      "a",
+      "spiders",
+      "."
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O"
+    ],
+    "text": "The animal in the picture appears to be a spiders."
+  },
+  {
+    "tokens": [
+      "I",
+      "looked",
+      "at",
+      "the",
+      "picture",
+      "carefully",
+      ".",
+      "I",
+      "noticed",
+      "a",
+      "spiders",
+      "."
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O"
+    ],
+    "text": "I looked at the picture carefully. I noticed a spiders."
+  },
+  {
+    "tokens": [
+      "There",
+      "is",
+      "a",
+      "canine",
+      "in",
+      "the",
+      "image",
+      "."
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "text": "There is a canine in the image."
+  },
+  {
+    "tokens": [
+      "I",
+      "don",
+      "'",
+      "t",
+      "think",
+      "this",
+      "is",
+      "a",
+      "spider",
+      "."
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O"
+    ],
+    "text": "I don't think this is a spider."
+  },
+  {
+    "tokens": [
+      "I",
+      "see",
+      "a",
+      "spider",
+      "."
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O"
+    ],
+    "text": "I see a spider."
+  },
+  {
+    "tokens": [
+      "The",
+      "photo",
+      "shows",
+      "a",
+      "group",
+      "of",
+      "sheep",
+      "."
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O"
+    ],
+    "text": "The photo shows a group of sheep."
+  },
+  {
+    "tokens": [
+      "I",
+      "looked",
+      "at",
+      "the",
+      "picture",
+      "carefully",
+      ".",
+      "I",
+      "noticed",
+      "a",
+      "squirrels",
+      "."
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O"
+    ],
+    "text": "I looked at the picture carefully. I noticed a squirrels."
+  },
+  {
+    "tokens": [
+      "Check",
+      "out",
+      "this",
+      "amazing",
+      "photo",
+      "of",
+      "a",
+      "foal",
+      "!"
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O"
+    ],
+    "text": "Check out this amazing photo of a foal!"
+  },
+  {
+    "tokens": [
+      "The",
+      "picture",
+      "was",
+      "taken",
+      "at",
+      "the",
+      "zoo",
+      "and",
+      "shows",
+      "a",
+      "elephants",
+      "."
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O"
+    ],
+    "text": "The picture was taken at the zoo and shows a elephants."
+  },
+  {
+    "tokens": [
+      "Here",
+      "is",
+      "a",
+      "close",
+      "-",
+      "up",
+      "photo",
+      "of",
+      "a",
+      "squirrel",
+      "."
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O"
+    ],
+    "text": "Here is a close-up photo of a squirrel."
+  },
+  {
+    "tokens": [
+      "Check",
+      "out",
+      "this",
+      "amazing",
+      "photo",
+      "of",
+      "a",
+      "foal",
+      "!"
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O"
+    ],
+    "text": "Check out this amazing photo of a foal!"
+  },
+  {
+    "tokens": [
+      "Do",
+      "you",
+      "think",
+      "that",
+      "is",
+      "a",
+      "ewe",
+      "?"
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O"
+    ],
+    "text": "Do you think that is a ewe?"
+  },
+  {
+    "tokens": [
+      "I",
+      "can",
+      "see",
+      "a",
+      "squirrels",
+      "in",
+      "the",
+      "photo",
+      "."
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "text": "I can see a squirrels in the photo."
+  },
+  {
+    "tokens": [
+      "That",
+      "sure",
+      "looks",
+      "like",
+      "a",
+      "kitty",
+      "."
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O"
+    ],
+    "text": "That sure looks like a kitty."
+  },
+  {
+    "tokens": [
+      "I",
+      "believe",
+      "that",
+      "animal",
+      "is",
+      "a",
+      "chicken",
+      "."
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O"
+    ],
+    "text": "I believe that animal is a chicken."
+  },
+  {
+    "tokens": [
+      "I",
+      "have",
+      "no",
+      "idea",
+      "what",
+      "animal",
+      "this",
+      "is",
+      "."
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "text": "I have no idea what animal this is."
+  },
+  {
+    "tokens": [
+      "Check",
+      "out",
+      "this",
+      "amazing",
+      "photo",
+      "of",
+      "a",
+      "hen",
+      "!"
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O"
+    ],
+    "text": "Check out this amazing photo of a hen!"
+  },
+  {
+    "tokens": [
+      "I",
+      "can",
+      "see",
+      "several",
+      "foal",
+      "in",
+      "the",
+      "picture",
+      "."
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "text": "I can see several foal in the picture."
+  },
+  {
+    "tokens": [
+      "The",
+      "image",
+      "was",
+      "blurry",
+      ".",
+      "However",
+      ",",
+      "I",
+      "could",
+      "still",
+      "see",
+      "a",
+      "dog",
+      "."
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O"
+    ],
+    "text": "The image was blurry. However, I could still see a dog."
+  },
+  {
+    "tokens": [
+      "The",
+      "spiders",
+      "was",
+      "captured",
+      "on",
+      "camera",
+      "near",
+      "the",
+      "river",
+      "."
+    ],
+    "tags": [
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "text": "The spiders was captured on camera near the river."
+  },
+  {
+    "tokens": [
+      "It",
+      "is",
+      "hard",
+      "to",
+      "say",
+      "what",
+      "is",
+      "in",
+      "the",
+      "image",
+      "."
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "text": "It is hard to say what is in the image."
+  },
+  {
+    "tokens": [
+      "Is",
+      "that",
+      "a",
+      "squirrels",
+      "in",
+      "the",
+      "picture",
+      "?"
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "text": "Is that a squirrels in the picture?"
+  },
+  {
+    "tokens": [
+      "The",
+      "image",
+      "does",
+      "not",
+      "contain",
+      "any",
+      "animals",
+      "."
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "text": "The image does not contain any animals."
+  },
+  {
+    "tokens": [
+      "Is",
+      "there",
+      "a",
+      "cow",
+      "in",
+      "the",
+      "photo",
+      "?"
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "text": "Is there a cow in the photo?"
+  },
+  {
+    "tokens": [
+      "It",
+      "is",
+      "a",
+      "butterfly",
+      "."
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O"
+    ],
+    "text": "It is a butterfly."
+  },
+  {
+    "tokens": [
+      "A",
+      "butterflies",
+      "was",
+      "photographed",
+      "in",
+      "its",
+      "natural",
+      "habitat",
+      "."
+    ],
+    "tags": [
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "text": "A butterflies was photographed in its natural habitat."
+  },
+  {
+    "tokens": [
+      "While",
+      "walking",
+      "in",
+      "the",
+      "park",
+      "I",
+      "spotted",
+      "a",
+      "rooster",
+      "."
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O"
+    ],
+    "text": "While walking in the park I spotted a rooster."
+  },
+  {
+    "tokens": [
+      "I",
+      "can",
+      "see",
+      "a",
+      "hen",
+      "in",
+      "the",
+      "photo",
+      "."
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "text": "I can see a hen in the photo."
+  },
+  {
+    "tokens": [
+      "It",
+      "is",
+      "a",
+      "chickens",
+      "."
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O"
+    ],
+    "text": "It is a chickens."
+  },
+  {
+    "tokens": [
+      "The",
+      "picture",
+      "was",
+      "taken",
+      "at",
+      "the",
+      "zoo",
+      "and",
+      "shows",
+      "a",
+      "spiders",
+      "."
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O"
+    ],
+    "text": "The picture was taken at the zoo and shows a spiders."
+  },
+  {
+    "tokens": [
+      "The",
+      "picture",
+      "is",
+      "too",
+      "blurry",
+      "to",
+      "tell",
+      "."
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "text": "The picture is too blurry to tell."
+  },
+  {
+    "tokens": [
+      "This",
+      "photo",
+      "was",
+      "taken",
+      "in",
+      "the",
+      "forest",
+      "."
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "text": "This photo was taken in the forest."
+  },
+  {
+    "tokens": [
+      "That",
+      "is",
+      "not",
+      "a",
+      "squirrel",
+      "in",
+      "the",
+      "picture",
+      "."
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "text": "That is not a squirrel in the picture."
+  },
+  {
+    "tokens": [
+      "I",
+      "looked",
+      "at",
+      "the",
+      "picture",
+      "carefully",
+      ".",
+      "I",
+      "noticed",
+      "a",
+      "canine",
+      "."
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O"
+    ],
+    "text": "I looked at the picture carefully. I noticed a canine."
+  },
+  {
+    "tokens": [
+      "The",
+      "animal",
+      "in",
+      "the",
+      "picture",
+      "appears",
+      "to",
+      "be",
+      "a",
+      "foal",
+      "."
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O"
+    ],
+    "text": "The animal in the picture appears to be a foal."
+  },
+  {
+    "tokens": [
+      "I",
+      "see",
+      "a",
+      "kitty",
+      "."
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O"
+    ],
+    "text": "I see a kitty."
+  },
+  {
+    "tokens": [
+      "The",
+      "squirrel",
+      "was",
+      "captured",
+      "on",
+      "camera",
+      "near",
+      "the",
+      "river",
+      "."
+    ],
+    "tags": [
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "text": "The squirrel was captured on camera near the river."
+  },
+  {
+    "tokens": [
+      "Is",
+      "there",
+      "a",
+      "cow",
+      "in",
+      "the",
+      "photo",
+      "?"
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "text": "Is there a cow in the photo?"
+  }
+]

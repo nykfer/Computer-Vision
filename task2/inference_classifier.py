@@ -9,7 +9,6 @@ Usage:
 """
 
 import argparse
-from pathlib import Path
 
 import torch
 import torchvision.transforms as transforms
@@ -43,7 +42,6 @@ class AnimalClassifierInference:
         """
         Args:
             model_path: Path to the saved model weights (.pth file).
-            class_names: List of class names in order. Defaults to Animals-10 classes.
             device: Device to run inference on ('cpu', 'cuda'). Auto-detected if None.
         """
         self.device = device or ("cuda" if torch.cuda.is_available() else "cpu")
@@ -82,34 +80,6 @@ class AnimalClassifierInference:
             Tuple of (predicted_class, confidence, all_probabilities).
         """
         image = Image.open(image_path).convert("RGB")
-        tensor = self.transform(image).unsqueeze(0).to(self.device)
-
-        with torch.no_grad():
-            outputs = self.model(tensor)
-            probabilities = torch.softmax(outputs, dim=1)[0]
-
-        pred_idx = probabilities.argmax().item()
-        pred_class = self.class_names[pred_idx]
-        confidence = probabilities[pred_idx].item()
-
-        all_probs = {
-            name: probabilities[i].item()
-            for i, name in enumerate(self.class_names)
-        }
-
-        return pred_class, confidence, all_probs
-
-    def predict_from_pil(self, image: Image.Image) -> tuple[str, float, dict[str, float]]:
-        """
-        Classify a PIL Image directly.
-
-        Args:
-            image: PIL Image object.
-
-        Returns:
-            Tuple of (predicted_class, confidence, all_probabilities).
-        """
-        image = image.convert("RGB")
         tensor = self.transform(image).unsqueeze(0).to(self.device)
 
         with torch.no_grad():

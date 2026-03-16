@@ -9,7 +9,7 @@ Returns a boolean: True if the animal mentioned in the text matches the
 animal detected in the image, False otherwise.
 
 The pipeline works in two stages:
-  - NER stage: Extracts animal names from the text using a fine-tuned BERT model.
+  - NER stage: Extracts the animal name from the text using a fine-tuned BERT model.
   - Classification stage: Classifies the animal in the image using a fine-tuned ResNet-50.
 
 Usage:
