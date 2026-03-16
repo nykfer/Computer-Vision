@@ -33,15 +33,15 @@ class NERInference:
         # Load label mapping from model config
         self.id2label = self.model.config.id2label
 
-    def extract_animals(self, text: str) -> list[str]:
+    def extract_animal(self, text: str) -> str | None:
         """
-        Extract animal names from the input text.
+        Extract the animal name from the input text.
 
         Args:
             text: Input sentence (e.g., "There is a cow in the picture.").
 
         Returns:
-            List of extracted animal name strings.
+            Extracted animal name string, or None if no animal found.
         """
         inputs = self.tokenizer(
             text, return_tensors="pt", truncation=True, max_length=512
@@ -55,39 +55,22 @@ class NERInference:
         tokens = self.tokenizer.convert_ids_to_tokens(inputs["input_ids"][0])
 
         # Collect tokens predicted as B-ANIMAL and merge sub-word pieces
-        animals = []
-        current_animal = []
-
+        animal_tokens = []
         for token, pred_id in zip(tokens, predictions):
             label = self.id2label[pred_id.item()]
-
             if label == "B-ANIMAL":
-                # If this is a sub-word token (starts with ##), append to current
                 if token.startswith("##"):
-                    current_animal.append(token[2:])
+                    animal_tokens.append(token[2:])
                 else:
-                    # Save previous animal if exists
-                    if current_animal:
-                        animals.append("".join(current_animal))
-                    current_animal = [token]
-            else:
-                # End of animal entity
-                if current_animal:
-                    animals.append("".join(current_animal))
-                    current_animal = []
+                    if animal_tokens:
+                        break
+                    animal_tokens.append(token)
 
-        # Don't forget the last one
-        if current_animal:
-            animals.append("".join(current_animal))
+        if not animal_tokens:
+            return None
 
-        # Clean up: lowercase and strip punctuation
-        cleaned = []
-        for animal in animals:
-            clean = animal.strip(".,!?;:'\"").lower()
-            if clean:
-                cleaned.append(clean)
-
-        return cleaned
+        animal = "".join(animal_tokens).strip(".,!?;:'\"").lower()
+        return animal or None
 
 
 def main():
@@ -101,12 +84,12 @@ def main():
     args = parser.parse_args()
 
     ner = NERInference(model_dir=args.model_dir, device=args.device)
-    animals = ner.extract_animals(args.text)
+    animal = ner.extract_animal(args.text)
 
-    if animals:
-        print(f"Extracted animals: {animals}")
+    if animal:
+        print(f"Extracted animal: {animal}")
     else:
-        print("No animals found in the text.")
+        print("No animal found in the text.")
 
 
 if __name__ == "__main__":

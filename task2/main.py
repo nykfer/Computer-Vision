@@ -88,22 +88,22 @@ def run_pipeline(
     Returns:
         True if the animal in the text matches the animal in the image.
     """
-    # Stage 1: Extract animal name(s) from text
+    # Stage 1: Extract animal name from text
     ner = NERInference(model_dir=ner_model_dir, device=device)
-    extracted_animals = ner.extract_animals(text)
+    extracted_animal = ner.extract_animal(text)
 
     if verbose:
-        print(f"[NER] Extracted animals: {extracted_animals}")
+        print(f"[NER] Extracted animal: {extracted_animal}")
 
-    if not extracted_animals:
+    if not extracted_animal:
         if verbose:
             print("[NER] No animal found in text -> False")
         return False
 
-    # Normalize extracted names
-    normalized_animals = [normalize_animal_name(a) for a in extracted_animals]
+    # Normalize extracted name
+    normalized_animal = normalize_animal_name(extracted_animal)
     if verbose:
-        print(f"[NER] Normalized: {normalized_animals}")
+        print(f"[NER] Normalized: {normalized_animal}")
 
     # Stage 2: Classify the animal in the image
     classifier = AnimalClassifierInference(
@@ -114,8 +114,8 @@ def run_pipeline(
     if verbose:
         print(f"[Classifier] Predicted: {predicted_class} ({confidence:.4f})")
 
-    # Stage 3: Compare — does any extracted animal match the predicted class?
-    match = any(animal == predicted_class for animal in normalized_animals)
+    # Stage 3: Compare
+    match = normalized_animal == predicted_class
 
     if verbose:
         print(f"[Result] Match: {match}")

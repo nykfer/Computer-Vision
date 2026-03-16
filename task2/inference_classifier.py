@@ -38,7 +38,6 @@ class AnimalClassifierInference:
     def __init__(
         self,
         model_path: str = "animals.pth",
-        class_names: list[str] = None,
         device: str = None,
     ):
         """
@@ -48,7 +47,7 @@ class AnimalClassifierInference:
             device: Device to run inference on ('cpu', 'cuda'). Auto-detected if None.
         """
         self.device = device or ("cuda" if torch.cuda.is_available() else "cpu")
-        self.class_names = class_names or CLASS_NAMES
+        self.class_names =  CLASS_NAMES
         self.num_classes = len(self.class_names)
 
         # Build ResNet-50 architecture and replace final FC layer
