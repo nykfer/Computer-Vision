@@ -1,6 +1,4 @@
-# Winstars AI DS Internship Test
-
-This repository contains solutions for the Winstars AI Data Science internship test, covering Machine Learning, Computer Vision, NLP, and OOP.
+# Project description
 
 ## Repository Structure
 
